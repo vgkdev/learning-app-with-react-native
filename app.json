@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Nhập môn lập trình",
+    "slug": "NhapMonLapTrinh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.newsapp.newsapp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.newsapp.newsapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/app-icon.png"
+    }
+  }
+}
